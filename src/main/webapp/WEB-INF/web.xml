@@ -20,6 +20,10 @@
         <servlet-name>NewServletGeneros</servlet-name>
         <servlet-class>controller.NewServletGeneros</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>NewServletEliminar</servlet-name>
+        <servlet-class>controller.NewServletEliminar</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>NewServletLogin</servlet-name>
         <url-pattern>/NewServletLogin</url-pattern>
@@ -39,6 +43,10 @@
     <servlet-mapping>
         <servlet-name>NewServletGeneros</servlet-name>
         <url-pattern>/NewServletGeneros</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NewServletEliminar</servlet-name>
+        <url-pattern>/NewServletEliminar</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

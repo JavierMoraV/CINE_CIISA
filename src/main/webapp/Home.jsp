@@ -44,6 +44,10 @@
                 <td><button type="" class="btn btn-primary inputs" onclick="location.href='modVentaEntrada.jsp'">Ingresar</button></td>
             </tr>
             <tr>
+                <td><label>Ingresar Genero</label></td>
+                <td><button type="" class="btn btn-primary inputs" onclick="location.href='agregarGenero.jsp'">Ingresar</button></td>
+            </tr>
+            <tr>
                 <td><label>Ver Peliculas</label></td>
                 <td><button type="" class="btn btn-primary inputs" onclick="location.href='verPeliculas.jsp'">Ingresar</button></td>
             </tr>

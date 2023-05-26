@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Ver Peliculas</title>
+        <title>Agregar Generos</title>
         
         <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -31,10 +31,10 @@
     <body>
         <h1>Agregar Generos</h1>
         <table class="table table-striped">
-            <form name="NewServletLogin" action="NewServletLogin" method="GET">
+            <form name="NewServletLogin" action="NewServletGeneros" method="POST">
               <div class="form-group">
                 <label for="exampleInputEmail1">Nombre Genero</label>
-                <input type="text" class="form-control" id="nompel" name="nompel" placeholder="">
+                <input type="text" class="form-control" id="genero" name="genero" placeholder="">
               </div>
               <button type="submit" class="btn btn-primary">Ingresar Genero</button>
             </form>
